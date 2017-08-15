@@ -1,0 +1,305 @@
+.registration{
+	position: relative;
+}
+.name input {
+    border: 0 none !important;
+    left: 55px;
+    margin: 0 !important;
+    position: absolute;
+    top: 100px;
+    width: 60% !important;
+    font-size: 12px !important;
+}
+.name input[type="text"]:focus:not([readonly]), .business-name input[type="text"]:focus:not([readonly]),
+.tax-classification input[type="text"]:focus:not([readonly]), .exempt-code input[type="text"]:focus:not([readonly]),
+.fatca input[type="text"]:focus:not([readonly]), .address input[type="text"]:focus:not([readonly]),
+.city input[type="text"]:focus:not([readonly]), .list-account input[type="text"]:focus:not([readonly]),
+.requestor input[type="text"]:focus:not([readonly]), .sec-number1 input[type="text"]:focus:not([readonly]),
+.sec-number2 input[type="text"]:focus:not([readonly]), .sec-number3 input[type="text"]:focus:not([readonly]),
+.sec-number4 input[type="text"]:focus:not([readonly]), .sec-number5 input[type="text"]:focus:not([readonly]), 
+.sec-number6 input[type="text"]:focus:not([readonly]), .sec-number7 input[type="text"]:focus:not([readonly]),
+.sec-number8 input[type="text"]:focus:not([readonly]), .sec-number9 input[type="text"]:focus:not([readonly]),
+.emp-number1 input[type="text"]:focus:not([readonly]), .emp-number2 input[type="text"]:focus:not([readonly]),
+.emp-number3 input[type="text"]:focus:not([readonly]), .emp-number4 input[type="text"]:focus:not([readonly]),
+.emp-number5 input[type="text"]:focus:not([readonly]), .emp-number6 input[type="text"]:focus:not([readonly]), 
+.emp-number7 input[type="text"]:focus:not([readonly]), .emp-number8 input[type="text"]:focus:not([readonly]),
+.emp-number9 input[type="text"]:focus:not([readonly]), .date input[type="text"]:focus:not([readonly]){
+
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+.business-name input {
+    border: 0 none !important;
+    left: 55px;
+    margin: 0 !important;
+    position: absolute;
+    top: 140px;
+    width: 60% !important;
+    font-size: 12px !important;
+}
+.tax-classification input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    position: absolute;
+    left: 600px;
+    top: 205px;
+    width: 5% !important;
+}
+.exempt-code input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    position: absolute;
+    left: 805px;
+    top: 196px;
+    width: 5% !important;
+}
+.fatca input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    left: 745px;
+    margin: 0 !important;
+    position: absolute;
+    top: 235px;
+    width: 11% !important;
+}
+.address input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    left: 55px;
+    margin: 0 !important;
+    position: absolute;
+    top: 290px;
+    width: 50% !important;
+}
+.city input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    left: 55px;
+    margin: 0 !important;
+    position: absolute;
+    top: 327px;
+    width: 50% !important;
+}
+.list-account input {
+    border: 0 none !important;
+    font-size: 12px !important;
+    left: 55px;
+    margin: 0 !important;
+    position: absolute;
+    top: 365px;
+    width: 80% !important;
+}
+
+.registration input {
+    visibility: visible !important;
+}
+
+.requestor input {
+    border: medium none;
+    font-size: 12px !important;
+    left: 570px;
+    position: absolute;
+    top: 300px;
+    width: 29%;
+}
+.llc input {
+    left: 56px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 195px;
+}
+.c-corp input {
+    left: 247px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 195px;
+}
+.s-corp input {
+    left: 360px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 195px;
+}
+.partner input {
+    left: 462px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 195px;
+}
+.trust input {
+    left: 575px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 195px;
+}
+.limited input {
+    left: 56px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 222px;
+}
+.other input {
+    left: 56px !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 270px;
+}
+
+.sec-number1 input{
+    height: 34px;
+    left: 609px;
+    margin: 0 !important;
+    position: absolute;
+    top: 436px;
+    width: 247px !important;
+    border: 1px solid black;
+}
+.sec-number2 input {
+    left: 638px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number3 input {
+    left: 661px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number4 input {
+    left: 707px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number5 input {
+    left: 729px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number6 input {
+    left: 775px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number7 input {
+    left: 797px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number8 input {
+    left: 820px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.sec-number9 input {
+    left: 842px;
+    border-bottom: 0 none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 432px;
+    width: 8px !important;
+}
+.emp-number1 input {
+    height: 34px;
+    left: 609px;
+    margin: 0 !important;
+    position: absolute;
+    top: 510px;
+    width: 247px !important;
+    border: 1px solid black;
+}
+.emp-number2 input {
+    border-bottom: 0 none !important;
+    left: 639px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number3 input {
+    border-bottom: 0 none !important;
+    left: 684px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number4 input {
+    border-bottom: 0 none !important;
+    left: 706px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number5 input {
+    border-bottom: 0 none !important;
+    left: 730px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number6 input {
+    border-bottom: 0 none !important;
+    left: 751px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number7 input {
+    border-bottom: 0 none !important;
+    left: 775px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number8 input {
+    border-bottom: 0 none !important;
+    left: 798px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.emp-number9 input {
+    border-bottom: 0 none !important;
+    left: 820px;
+    margin: 0 !important;
+    position: absolute;
+    top: 507px;
+    width: 8px !important;
+}
+.date input {
+    border-bottom: medium none !important;
+    left: 600px;
+    position: absolute;
+    top: 776px;
+    width: 10% !important;
+}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    background: #ffffff none repeat scroll 0 0 !important;
+}
